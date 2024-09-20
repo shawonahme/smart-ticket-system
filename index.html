@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Ticket System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+     :root{ --font1: "Inter", sans-serif;
+           
+           --font2: "Raleway", sans-serif;
+     
+     }
+     .font1{
+      font-family: var(--font1);
+     }
+     .font2{
+        font-family: var(--font2);
+     }
+
+
+</style>
+</head>
+<body >
+
+    
+    <!-- header section start here  -->
+
+    <div class="navbar bg-base-100 container  ">
+
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Home</a></li>
+
+              <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>About</a></li>
+              <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Destination</a></li>
+              <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn bg-transparent hover:bg-[#E8FAE6] text-[#1DD100] text-2xl font-bold">S-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Home</a></li>
+            <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>About</a></li>
+            <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Destination</a></li>
+            <li class="hover:bg-[#E8FAE6] hover:text-[#1DD100]"><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#E8FAE6] hover:bg-[#E8FAE6] text-[#1DD100]">Bus <img src="./images/bus-icon.png" alt=""></a>
+        </div>
+      </div>
+
+      <!-- navbar end here  -->
+       <!-- hero section start here  -->
+       <div
+       class="hero min-h-screen"
+       style="background-image: url(./images/banner.png);">
+       <div class=""></div>
+       <div class="hero-content text-neutral-content text-center">
+         <div class="max-w-2xl">
+           <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with</h1>
+           <h1 class="mb-5 text-5xl text-[#1DD100] font-bold">S Paribahan</h1>
+
+           <p class="mb-5">
+            Yes, you can run unit tests and view the results directly within the app. The 
+            integrated testing features allow for a streamlined .
+           </p>
+           <button class="btn font-bold bg-[#1DD100]">Buy Tickets</button>
+         </div>
+       </div>
+     </div>
+       <!-- hero section end here  -->
+        <!-- card section start here  -->
+
+       <div class=" w-[80%] mx-auto text-center max-h-full    relative flex justify-around">
+        <div class="absolute top-[-36px] z-20">
+         
+        <div class="stats shadow-md mx-4 shadow-[#1DD100]">
+            <div class="stat">
+                <div class="stat-figure text-secondary">
+                    <img width="70%" src="./images/people.png" alt="">
+                
+                  </div>
+                <div class="stat-value">500K+</div>
+                <div class="stat-desc">Registered users</div>
+           
+             
+             
+            </div>
+          
+          </div>
+           
+        <div class="stats shadow-md mx-4 shadow-[#1DD100]">
+ 
+
+
+        
+                <div class="stat">
+                    <div class="stat-figure text-secondary">
+                        <img width="70%" src="./images/ticket-cupon.png" alt="">
+                    
+                      </div>
+                    <div class="stat-value">1.7 lacks</div>
+                    <div class="stat-desc">Tickets sold</div>
+               
+                 
+                 
+                </div>
+              
+              </div>
+               
+            <div class="stats shadow-md  mx-4 shadow-[#1DD100]">
+                <div class="stat">
+                    <div class="stat-figure text-secondary">
+                        <img width="80%" src="./images/stoppage.png" alt="">
+                    
+                      </div>
+                    <div class="stat-value">80K+</div>
+                    <div class="stat-desc">Rental partners</div>
+               
+                 
+                 
+                </div>
+              
+              </div>
+            </div>
+       </div>
+        <!-- card section end here  -->
+    <!-- header section end here  -->
+
+    <!-- best offer section start here  -->
+
+    <section class="container my-20 mx-auto ">
+        <h1 class="text-4xl text-center pt-10 font-bold">Best offers for you</h1>
+
+        <div class="flex justify-around mt-20">
+            <div class="bg-[#FFBF0F] relative flex justify-between gap-x-10 px-10 rounded-xl">
+                
+
+                    <div  class="flex flex-col justify-center text-center">
+                        <h2 class="text-3xl font-bold">15% OFF</h2>
+                        <p class="font-semibold">on your next purchase</p>
+                        <span class="text-gray-500 text-sm">use by January 2024</span>
+                    </div>
+                    <div><img h-[80%] src="./images/cupon-devider.png" alt="" srcset=""></div>
+                    <div class="flex flex-col justify-center text-center">
+                        <h2 class="text-2xl font-bold">NEW15</h2>
+                        <span class="text-gray-500 text-sm">Coupon Code</span>
+                    </div>
+                
+            </div>
+            <div class="bg-[#F78C9C] relative flex justify-between gap-x-10 px-10 rounded-xl">
+                
+
+                <div  class="flex flex-col justify-center text-center">
+                    <h2 class="text-3xl font-bold">20% OFF</h2>
+                    <p class="font-semibold">on your next purchase</p>
+                    <span class="text-gray-500 text-sm">use by January 2024</span>
+                </div>
+                <div><img h-[80%] src="./images/cupon-devider.png" alt="" srcset=""></div>
+                <div class="flex flex-col justify-center text-center">
+                    <h2 class="text-2xl font-bold">Couple 20</h2>
+                    <span class="text-gray-500 text-sm">Coupon Code</span>
+                </div>
+            
+        </div>
+
+
+        </div>
+        <div class="w-[20%] mx-auto text-center">
+
+        <button class="btn mx-auto text-[#1DD100] hover:text-white border-[#1DD100] hover:bg-[#1DD100] mt-20">See All Offers</button>
+
+        </div>
+
+    </section>
+    <!-- best offer section end here  -->
+   
+    <br>
+</body>
+</html>
