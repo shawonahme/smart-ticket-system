@@ -68,17 +68,21 @@ if(disvalue.value =='new15'){
    const disprice =   totalPriceAmout *( 15 / 100);
    const mainPrice = totalPriceAmout - disprice;
    finalPrice.innerText = mainPrice;
-   disvalue.value = '';
+   disvalue.value =  'copon has been used';
+   disvalue.setAttribute('disabled',true)
 }
 else if(disvalue.value =='couple20'){
     const disprice =   totalPriceAmout *( 20 / 100);
     const mainPrice = totalPriceAmout - disprice;
     finalPrice.innerText = mainPrice;
-    disvalue.value = ''
+    disvalue.value = 'copon has been used'
+    disvalue.setAttribute('disabled',true)
+    
 }
 else{
     finalPrice.innerText =totalPriceAmout ; 
-    disvalue.value = ''
+    disvalue.value =  'this is not valid copon'
+    disvalue.setAttribute('disabled',true)
 }
 
 
